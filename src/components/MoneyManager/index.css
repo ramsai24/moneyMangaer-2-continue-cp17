@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 1px solid green;
+  width: 80%;
+  height: 100%;
+  padding: 20px;
+}
+
+.MoneyDetails-container {
+  display: flex;
+  border: 1px solid orange;
+  width: 100%;
+  margin: 10px;
+}
+
+.addTransaction-history-container {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid pink;
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+}
+
+.add-transaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 400px;
+}
+.history-container {
+  border: 1px solid yellow;
+  width: 400px;
+}
+
+.history-headers {
+  display: flex;
+  border: 1px solid #475569;
+  width: 100%;
+}
+
+.his-title {
+  margin-left: 35px;
+}
+.list-items {
+  padding: 0px;
+}
